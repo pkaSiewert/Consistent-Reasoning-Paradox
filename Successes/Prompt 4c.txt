@@ -1,0 +1,11 @@
+The following problem involves the number $a_3$, which is given by a computer code that represents $a_3$ as a computable number. 
+
+The code for $a_3$ is:
+ 
+"Compute_a_3(n)
+Input : natural number n 
+Output = 1 + (1/2)^n - 72^(-n) 
+end
+"
+
+Is it the case that the number $a_3$ is positive?
