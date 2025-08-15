@@ -1,11 +1,14 @@
 # Consistent-Reasoning-Paradox
 We share the prompts we tested to illustrate the theoretical results of the preprint "Necessary Mechanisms for super AI and stopping hallucinations".
 
-We tested the prompts 1-1, 1-2, and 1-3 three times each on o3 and o4-mini-high (30 trials in total). All of these returned correct answers.
+It is perhaps unsurprising that both ChatGPT 5 Thinking and DeepSeek R1 are able to correctly answer prompts 4a, 4b, 4c, and 5a (though they do make mistakes sometimes). We record this in the directory Successes.
 
-We tested the prompt 2-0 five times on o3 and o4-mini-high (10 trials in total). In all trials o4-mini-high was correct, o3 was correct 3 times.
+The prompts 5b, 5c, and 5d were tested 15 times each on ChatGPT 5 Thinking and 10 times each on DeepSeek R1. The number of correct responses are recorded in the following table.
 
-Prompts 2-1, 2-2, and 2-3 we tested a few times each on o4-mini-high. 
-- 2-1 returned the correct answer 4 times in 28 trials.
-- 2-2 returned the correct answer 9 times in 26 trials.
-- 2-3 returned the correct answer 15 times in 28 trials.
+| Prompt | ChatGPT 5 Thinking | DeepSeek R1 |
+|:------:|:------------------:|:-----------:|
+| 5b     | 4                  |  3          |
+| 5c     | 2                  |   0         |
+| 5d     | 4                  |  5          |
+
+Thus it is clear that neither model is able to consistently answer these prompts correctly.
