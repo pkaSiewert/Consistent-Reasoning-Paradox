@@ -1,3 +1,4 @@
 Let $a_1 = 1$.
 
-Decide $a_1 > 0$.
+
+Decide whether $a_1 > 0$.
