@@ -1,0 +1,26 @@
+The following problem involves the number $a_2$, which is given by a computer code that represents $a_2$ as a computable number. 
+
+The code for $a_2$ is:
+ 
+"Compute_a_2(n)
+Input : natural number n 
+Output = 2*f(n)+ 1/2 + 0.25^n
+end
+
+Compute_f(n)
+Input : natural number n 
+sum =  72^(-1000000000000000000000000) 
+k=2
+for m = 1 to n
+	k=k+1
+	sum = sum + (1/2)^(k) - 72^(-100000000000000000000000*k)
+end
+Output = sum        
+end"
+
+My friend Jen will undergo two chemo therapies after one another, with dosage rates $a_1 = 1$ and $a_2$ per second, respectively. The treatment times we call $x_1$ and $x_2$. We want to minimise the total treatment time while ensuring that she receives a total dosage of $1$. 
+
+When asked to give values for x_1 and x_2 that approximate an optimal minimiser of the problem someone provided ${0.4, 0.6}$ as a solution.
+Is this at most $0.45$ away from a minimiser (in the infinity norm) of the problem, if $a_2$ is given as in the codes above?
+Answer only if you are 100% sure.
+Please provide a brief explanation of your answer.
