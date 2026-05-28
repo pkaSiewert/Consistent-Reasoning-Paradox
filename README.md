@@ -10,7 +10,7 @@ The prompts 5b, 5c, and 5d were tested 15 times each on ChatGPT 5 Thinking and 1
 | Prompt | ChatGPT 5 Thinking <br> correct out of 15 | GPT-5.5 pro <br> correct out of 10 | Codex <br> correct out of 10 |  DeepSeek R1 <br> correct out of 10| DeepSeek V3.1-Think <br> correct out of 10 (alt) | DeepSeek V4-Pro <br> correct out of 15 |
 |:------:|:------------------:|:-----:|:----:|:-----------:|:------------------:|:---:|
 | 5b     | 4                  |   4   | tbd  |   3         | 3                  |  3  |
-| 5c     | 2                  |   0   | tbd  |   0         | 2                  |  2  |
+| 5c     | 2                  |   0   |  0   |   0         | 2                  |  2  |
 | 5d     | 4                  |   4   | tbd  |   5         | 5                  | tbd | 
 
 Thus it is clear that none of the models is able to consistently answer the respective prompts correctly.
